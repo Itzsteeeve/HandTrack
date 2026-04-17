@@ -6,7 +6,11 @@ Simple real-time hand tracking app using webcam + MediaPipe.
 - Uses your webcam in a normal desktop window.
 - Detects multiple hands at once.
 - Draws hand landmarks and connecting lines.
-- Shows a basic gesture label (`fist`, `open`, or finger count).
+- Shows finger count and gesture labels in real time.
+- Supports gestures: `thumbs_up`, `thumbs_down`, `rock`, `spock`, `heart` (two hands), `l_sign`, `ok`, `peace`, `point`, `fist`, `open`.
+- Uses different colors for left and right hand overlays.
+- Highlights recognized gestures with brighter colors.
+- Uses background camera reading for lower latency and overlays current processing FPS.
 - On first run, downloads the official MediaPipe hand landmarker model automatically.
 
 ## Setup
